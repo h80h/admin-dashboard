@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/roboto-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'roboto';
+  color: #444444;
+}
+
+#user_pfp,
+#user_pfp_2,
+#user_pfp_3,
+#user_pfp_4 {
+  border-radius: 50%;
+}
+
+li {
+  list-style: none;
+}
