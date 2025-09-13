@@ -101,6 +101,8 @@ body {
   padding: 10px 50px 15px 50px;
   background-color: #fcfcfc;
   row-gap: 10px;
+  box-shadow: 0 4px 5px -3px rgba(115,115,115,0.35);
+  z-index: 2;
 }
 
 .dashboard,
@@ -118,7 +120,7 @@ body {
 
 .dashboard {
   justify-content: start;
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .nav_link {
@@ -133,8 +135,8 @@ body {
 
 .dashboard,
 .nav_link {
-  gap: 0;
-  grid-template-columns: 2fr 7fr;
+  gap: 5px;
+  grid-template-columns: 1fr 4fr;
 }
 
 .dashboard svg,
@@ -182,8 +184,9 @@ body {
 }
 
 #header_search {
-  height: 30px;
+  height: 35px;
   width: 600px;
+  padding-left: 15px;
 }
 
 .main_content {
@@ -228,11 +231,21 @@ body {
   font-size: 18px;
 }
 
+.project_action {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 15px;
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+}
+
 .projects > div > div,
 .announcements > div,
 .trending > div {
   background-color: #fcfcfc;
   border-radius: 10px;
+  box-shadow: 3px 4px 5px -3px rgba(115,115,115,0.35);
 }
 
 .mark {
@@ -288,8 +301,8 @@ input[type="search"] {
   border-radius: 20px;
 }
 
-.dashboard > svg {
-  min-width: 50px
+.dashboard svg {
+  min-width: 36px
 }
 
 svg {
