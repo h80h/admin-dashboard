@@ -1,1 +1,1 @@
-Simple admin dashboard practice
+Simple admin dashboard practice (only for css)
